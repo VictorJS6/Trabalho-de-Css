@@ -1,0 +1,242 @@
+
+#img2:hover{
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+#img1:hover{
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+table{
+    text-align: center;
+    margin-left: 350px;
+    border-spacing: 25px 0px;
+    border: 0px solid black;
+}
+.imgjiu{
+    width: 120px;
+    height: 70px; /* Altura ajustada automaticamente */
+    display: block; /* Garante que a imagem se comporte como bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+.nomeItem{
+    margin-bottom: 20px; 
+    font-size: 18px; 
+    font-weight: bold;
+    margin-left: auto;
+}
+.lado{
+    border: 1px;
+    border-radius: 10px;
+    border-style: dashed;
+}
+#img2{
+    background-image: url(img2.jpg);
+    height: 225px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#img1{
+    background-image: url(img1.jpg);
+    height: 225px;
+    width: 225px;
+    background-repeat: no-repeat;
+}
+    
+.subt{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cardbutton:hover{
+    background-color: white;
+    
+}
+
+.cardbutton{
+    color: rgb(0, 0, 0);
+    background-color: #9e6730;
+    margin-right: 10px;
+    height: 45px;
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid bisque;
+}
+#textDiv{
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: black;
+    font-size: 50px;
+    top: 30%;
+    position: relative; 
+    font-weight: bold;
+}
+.head{
+
+        width: 300px;
+        height: 100px; 
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: auto;
+    }
+    
+    body {
+        font-family: arial;
+        margin: 0;
+        padding: 0;
+        margin-top: 0px;
+        background-color: #f3dbc3;
+    }
+    
+    .sidebar{
+        height: 100vh;
+        width: 150px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #9e6730;
+        padding-top: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    .sidebar h2{
+        color: black;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .sidebar a{
+        display: block;
+        color: black;
+        padding: 25px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    
+    .sidebar a:hover{
+        background-color: bisque;
+        border-radius: 15px;
+    }
+    
+    .content{
+        margin-left: 150px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #eaccad;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .produto-img {
+        max-width: 400px;
+        height: auto;
+        border-radius: 8px;
+        border: 2px dashed black;
+        margin-left: 25%;
+    
+        
+    }
+    .produto-info {
+        margin-top: 20px;
+        border-style: dashed;
+        border: black;
+    }
+    .produto-descricao {
+        color: black;
+        line-height: 1.6;
+    }
+    .produto-preco {
+        font-size: 1.5rem;
+        color: green;
+        margin-top: 10px;
+        text-align: center;
+    }
+#reload{
+    background-image: url(macaco.gif);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-color: #9e6730;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+}
+#compra{
+    text-align: right;
+}
+#botaocompra{
+    margin-left: 85%;
+}
+#kimono1{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px dashed black;
+    margin-left: 25%;
+    border-image-width: 400px;
+    image-resolution: auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 120px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#enviado{
+    text-align: center;
+    color: #45a049;
+    margin-top: 10%;
+}
+#imgenviado{
+    text-align: center;
+}
